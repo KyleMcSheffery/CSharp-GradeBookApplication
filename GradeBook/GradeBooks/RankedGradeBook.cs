@@ -25,7 +25,7 @@ namespace GradeBook.GradeBooks
                 
             if (Students.Count < 5)
             {
-                throw new InvalidOperationException("Ranked grading requires at least five students.");
+               // throw new InvalidOperationException("Ranked grading requires at least five students.");
             }
             else if (averageGrade >= avgGrades[Students.Count / 5 * 4])
             {
